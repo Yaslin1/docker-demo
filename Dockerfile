@@ -8,6 +8,7 @@ COPY . .
 RUN npm install
 
 ENV PORT=5055
+# No spaces above
 
 EXPOSE 5055
 
